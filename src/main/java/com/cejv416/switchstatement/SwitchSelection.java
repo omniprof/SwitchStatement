@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author omniprof
+ * @author Ken Fogel
  */
 public class SwitchSelection {
 
