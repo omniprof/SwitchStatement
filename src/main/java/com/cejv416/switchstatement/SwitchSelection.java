@@ -23,7 +23,7 @@ public class SwitchSelection {
      * @param choice The letter entered by the user
      */
     public void doOldSwitch(char choice) {
-        String switchType = "Old Statement Switch";
+        var switchType = "Old Statement Switch";
         // old switch
         switch (choice) {
             case 'A':
@@ -49,7 +49,7 @@ public class SwitchSelection {
      * @param choice The letter entered by the user
      */
     public void doNewStatementSwitch(char choice) {
-        String switchType = "New Statement Switch";
+        var switchType = "New Statement Switch";
         // statement
         switch (choice) {
             case 'A' ->
@@ -70,7 +70,7 @@ public class SwitchSelection {
      * @param choice The letter entered by the user
      */
     public void doNewExpressionSwitch(char choice) {
-        String switchType = "New Expression Switch";
+        var switchType = "New Expression Switch";
         // statement
         String message = switch (choice) {
             case 'A' ->
@@ -119,7 +119,7 @@ public class SwitchSelection {
         char ch;
 
         // Process
-        Scanner sc = new Scanner(System.in);
+        var sc = new Scanner(System.in);
         do {
             System.out.println("Enter a char from a to d: ");
 
